@@ -1,0 +1,112 @@
+.footer-1 {
+  width: 100%;
+  box-sizing: border-box;
+  height: fit-content;
+  background-color: #2b2b39;
+  margin-top: 3rem;
+  color: #e7e7e7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 4rem;
+}
+
+.footer-2 {
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background-color: #20202d;
+}
+
+.footer-2 .brending-line {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 80%;
+  color: #f6f6f6;
+  background-color: #20202d;
+}
+
+.footer-2 h4 {
+  font-weight: 300;
+}
+
+.footer-1 li {
+  list-style: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-1 .main {
+  font-size: 1.25;
+  font-weight: 700;
+}
+
+.footer-1 li {
+  list-style: none;
+  color: #e7e7e7;
+}
+
+.footer-1 a {
+  color: #e7e7e7;
+  font-size: 0.8rem;
+}
+
+.footer-1 .subscribtion h1 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.footer-1 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+}
+
+.footer-1 .subscribtion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15rem;
+}
+
+.footer-1 .subscribtion p {
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.footer-1 .subscription-button-div {
+  border: white solid 1px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-1 .subscribtion input {
+  background-color: rgba(255, 0, 0, 0);
+  width: 30%;
+  height: 2rem;
+  border: none;
+  padding-left: 1rem;
+  outline: none;
+}
+
+.footer-1 .subscribtion button {
+  background-color: #e7e7e7;
+  border-radius: 0.75rem;
+  color: #2b2b39;
+  height: 3rem;
+  width: 7.9rem;
+  padding: auto;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+}

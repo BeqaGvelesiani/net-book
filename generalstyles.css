@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: transparent
+    linear-gradient(0deg, #f1f6fd00 14%, #f1f6fd 30%, #f1f6fd 64%, #ffffff 100%)
+    0% 0% no-repeat padding-box;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+

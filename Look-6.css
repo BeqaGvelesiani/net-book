@@ -1,0 +1,60 @@
+.Look-6 .module-1 h3 {
+  color: #217bf4;
+  font-size: 1.125rem;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.Look-6 .module-1 h1 {
+  font-size: 2rem;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Look-6 .module-1 p {
+  text-align: left;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #656464;
+  margin-bottom: 2rem;
+}
+
+.Look-6 .module-1 {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Look-6 .module-1 .text-div {
+  width: 20rem;
+}
+
+.Look-6 .module-1 .image-div {
+  width: 21rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Look-6 .module-1 img {
+  width: 10rem;
+  height: auto;
+}
+
+.Look-6 {
+  width: 100%;
+  height: 70vh;
+  background: #e5f0fd 0% 0% no-repeat padding-box;
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  place-items: center;
+  margin-bottom: 5rem;
+}
+
+.Look-6 img {
+  position: relative;
+  height: 70vh;
+  object-fit: cover;
+}

@@ -1,0 +1,155 @@
+.Look-3 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.Look-3 h3 {
+ 
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5d5b70;
+}
+
+
+.Look-3 .card-name {
+  display: flex;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.Look-3 .card-name img {
+  width: 25px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.Look-3 .card-name h1 {
+  text-transform: capitalize;
+  color: #0A093D;
+  font-weight: 600;
+}
+
+.Look-3 .data-div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.Look-3 .data-div img {
+  width: 25px;
+  height: 25px;
+}
+
+.Look-3 .rating-card p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.Look-3 {
+  display: flex;
+  padding-bottom: 10rem;
+}
+
+.Look-3 .card {
+  display: block;
+  width: 21rem;
+  height: 21rem;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  border: 1px solid #b9b9b945;
+}
+
+.Look-3 .card:hover {
+  background-color: #ffff;
+  border: 1px solid #b9b9b945;
+  box-shadow: 0px 26px 98px #92a5b824;
+}
+
+.Look-3 .card-name {
+  display: flex;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.Look-3 .card-name img {
+  width: 25px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.Look-3 h1 {
+  text-transform: capitalize;
+}
+
+.Look-3 .data-div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.Look-3 .data-div img {
+  width: 25px;
+  height: 25px;
+}
+
+.Look-3 .awards-card p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.Look-3 .data {
+  color: #217bf4;
+}
+
+.awards-card a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.awards-card h3 {
+  margin-left: 1rem;
+}
+
+.Look-3 a {
+  text-decoration: none;
+  color: #171717;
+  font-weight: 600;
+}
+
+.Look-3 a:hover {
+  color: #217bf4;
+}
+
+.avatar2 {
+  transform: translateX(-30%);
+}
+.avatar3 {
+  transform: translateX(-60%);
+}
+
+.achievement-card {
+  width: 26vw;
+  height: 21rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.achievement-card h3 {
+  color: #217bf4;
+  margin-bottom: 1rem;
+}
+
+.achievement-card h1 {
+  color: #0A093D;
+  font-size: 2.25rem;
+  margin-top: 0;
+}
+
+.discover-me-BTN {
+  margin: 0;
+}

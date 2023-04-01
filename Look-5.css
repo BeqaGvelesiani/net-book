@@ -1,0 +1,171 @@
+.Look-5 .module-1 h3 {
+  color: #217bf4;
+  font-size: 1.125rem;
+}
+
+.Look-5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  place-items: center;
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+.Look-5 .module-1 {
+  width: 60vw;
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+
+.Look-5 .module-1 h1 {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.Look-5 .module-1 p {
+  text-align: center;
+  width: 40%;
+  font-size: 0.8rem;
+  color: #656464;
+}
+
+.Look-5 .switch-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem;
+  background: #a0a4a81b 0% 0% no-repeat padding-box;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.Look-5 .current-btn {
+  border: none;
+  background: none;
+  margin: 0.1rem;
+  cursor: pointer;
+  color: #0f0e0e;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: normal;
+  height: fit-content;
+  width: fit-content;
+  padding: 1.1rem 2.7rem;
+  border-radius: 0.875rem;
+  margin: auto auto auto 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.Look-5 .current-btn:hover {
+  background-color: #217bf4;
+  color: #ffffff;
+  box-shadow: 0px 7px 44px #217bf457;
+}
+
+
+
+
+
+
+.Look-5 .image-div {
+  position: relative;
+  display: flex;
+  padding: 1.3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Look-5 .image-div::before {
+  position: absolute;
+  content: "";
+  inset: -1rem 3rem;
+  display: flex;
+  z-index: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffaf2e,
+    #ff7c60,
+    #ff5ba0,
+    #ca66db,
+    #217bf4
+  );
+  transition: 200ms;
+  animation: rotation 10000ms linear infinite;
+  overflow: hidden;
+}
+
+.Look-5 .image-div::after {
+  position: absolute;
+  content: "";
+  inset: 0.2rem;
+  border-radius: 50%;
+  display: flex;
+  z-index: 2;
+  background-color: whitesmoke;
+}
+
+.Look-5 .image-div:hover:before {
+  inset: -1rem;
+}
+
+.Look-5 .module-2 .person-image {
+  height: 12rem;
+  width: 12rem;
+  z-index: 3;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Look-5 .module-2 .check-image {
+  position: absolute;
+  z-index: 4;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  zoom: 1.4;
+}
+
+.Look-5 .module-2 h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.Look-5 .module-2 h4 {
+  text-align: center;
+  color: #656464;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.Look-5 .personal-card {
+  height: 20rem;
+  width: 15rem;
+  display: block;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border: #f3f3f380 2px solid;
+}
+
+.Look-5 .personal-card:hover {
+  background-color: white;
+  box-shadow: 0px 34px 136px #7473801a;
+  cursor: pointer;
+}
+
+.Look-5 .module-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
