@@ -1,21 +1,21 @@
 .footer-1 {
   width: 100%;
-  box-sizing: border-box;
   height: fit-content;
   background-color: #2b2b39;
   margin-top: 3rem;
   color: #e7e7e7;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+  box-sizing: border-box;
+  height: fit-content;
   text-transform: capitalize;
-  padding: 4rem;
+  padding: 3% 5%;
 }
 
 .footer-2 {
   display: flex;
   width: 100%;
-  height: 7rem;
+  height: 5rem;
   background-color: #20202d;
 }
 
@@ -23,43 +23,39 @@
   display: flex;
   margin: auto;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   color: #f6f6f6;
   background-color: #20202d;
 }
 
 .footer-2 h4 {
-  font-weight: 300;
+  font-weight: 200;
 }
 
-.footer-1 li {
-  list-style: none;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+.footer-2 .icons img {
+  margin: auto 0.5rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.footer-2 .icons img:hover {
+  transform: rotate(20deg) scale(1.5);
+  box-shadow: 0px 0px 10px 1px #f1a62e7b;
+  border-radius: 50%;
 }
 
 .footer-1 .main {
-  font-size: 1.25;
+  font-size: 1.25rem;
   font-weight: 700;
-}
-
-.footer-1 li {
-  list-style: none;
-  color: #e7e7e7;
-}
-
-.footer-1 a {
-  color: #e7e7e7;
-  font-size: 0.8rem;
 }
 
 .footer-1 .subscribtion h1 {
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  width: 50%;
+  width: fit-content;
 }
 
-.footer-1 ul {
+.footer-1 .links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,12 +66,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 15rem;
+  height: fit-content;
 }
 
 .footer-1 .subscribtion p {
   margin-bottom: 2rem;
-  width: 70%;
+  width: fit-content;
 }
 
 .footer-1 .subscription-button-div {
@@ -109,6 +105,24 @@
   text-align: center;
   font-weight: 700;
   border: none;
+}
+
+.footer-1 .links a {
+  color: #e7e7e7;
+  font-size: 0.8rem;
+  transition: 300ms;
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.footer-1 .links a:hover {
+  transform: translateY(-20%) rotate(10deg) scale(1.5);
+  font-weight: 900;
+  color: #f1a62e;
+  position: relative;
+  box-shadow: 0px 0px 10px 1px #f1a62e2f;
+  background-color: #f1a62e1f;
 }
 
 @media only screen and (max-width: 600px) {

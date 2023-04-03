@@ -1,9 +1,23 @@
+body {
+  background: transparent
+    linear-gradient(0deg, #f1f6fd00 14%, #f1f6fd 30%, #f1f6fd 64%, #ffffff 100%)
+    0% 0% no-repeat padding-box;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
 .Look-1 {
   background: transparent linear-gradient(325deg, #d4e7fe 0%, #ffffff 100%) 0%
     0% no-repeat padding-box;
   height: 100vh;
-  display: grid;
   place-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------------Headline---------------------- */
@@ -15,9 +29,8 @@
 .Headline {
   width: 100%;
   border-bottom: solid 2px #25252514;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: 5rem;
+  margin: 0;
 }
 
 .Headline-div {
@@ -163,8 +176,8 @@ li a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  /* background: transparent linear-gradient(325deg, #d4e7fe 0%, #ffffff 100%) 0%
-    0% no-repeat padding-box; */
+  height: fit-content;
+  margin: auto;
 }
 
 .greetting-module-1 {
