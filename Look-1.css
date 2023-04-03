@@ -108,6 +108,12 @@ body {
   display: flex;
 }
 
+@media (hover: none) {
+  .Look-1 .drop-Down:hover .dropdown-contant {
+    display: flex;
+  }
+}
+
 li a {
   text-decoration: none;
   color: #656464;
@@ -176,16 +182,17 @@ li a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  height: fit-content;
+  height: calc(100vh - 5rem);
   margin: auto;
 }
 
 .greetting-module-1 {
   width: 70%;
+  height: 50%;
 }
 
 .greetting h1 {
-  font-size: 3.5rem;
+  font-size: 5vh;
 }
 
 .greetting p {
@@ -257,11 +264,16 @@ li a {
 }
 
 .greetting img {
+  height: 70vh;
   /* border: #217bf4 solid; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 @media only screen and (max-width: 600px) {
+  .Headline {
+    height: fit-content;
+  }
+
   .Headline-div {
     width: 95%;
     display: block;
@@ -271,6 +283,10 @@ li a {
     margin-top: 1.5rem;
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  .headline-div-with-logo img {
+    height: 2rem;
   }
 
   .navigation-bnt-container {
@@ -292,9 +308,8 @@ li a {
   .greetting {
     display: flex;
     flex-direction: column;
-    padding-top: 15rem;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
 
   .greetting-module-1 {
@@ -308,7 +323,8 @@ li a {
   }
 
   .greetting-module-2 img {
-    width: 60%;
+    width: 80%;
+    height: auto;
     margin: 1rem auto;
   }
 
@@ -322,10 +338,5 @@ li a {
 
   .two-button {
     margin-top: 1rem;
-  }
-
-  img {
-    width: 50%;
-    margin: auto;
   }
 }
