@@ -86,6 +86,7 @@
 
 .footer-1 .subscribtion input {
   background-color: rgba(255, 0, 0, 0);
+  color: #f6f6f6;
   width: 30%;
   height: 2rem;
   border: none;
@@ -105,6 +106,15 @@
   text-align: center;
   font-weight: 700;
   border: none;
+  cursor: pointer;
+  transition: color 300ms linear, background-color 300ms linear,
+    box-shadow 600ms linear;
+}
+
+.footer-1 .subscribtion button:hover {
+  background-color: #217bf4;
+  color: whitesmoke;
+  box-shadow: 0px 0px 10px 1px #f1a62eaf;
 }
 
 .footer-1 .links a {
@@ -134,43 +144,47 @@
   }
 
   .footer-1 {
-    height: fit-content;
-    display: grid;
+    width: 100vw;
     grid-template-columns: 1fr 1fr;
-    place-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    place-items: left;
     flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 3rem;
   }
 
   .footer-1 .subscribtion {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 15rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
   .footer-1 .main {
-    background-color: #141417;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 0.5rem;
+    margin-top: 1rem;
   }
 
   .footer-1 .child {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 0.5rem;
   }
 
   .footer-2 {
     display: flex;
     width: 100%;
-    height: fit-content;
+    height: 12vh;
     background-color: #20202d;
   }
 
   .footer-2 .icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    margin: 0.1rem;
+  }
+
+  .footer-2 h4 {
+    font-size: 0.5rem;
+    margin: auto;
+  }
+
+  .footer-2 .logo {
+    width: 5rem;
   }
 }
